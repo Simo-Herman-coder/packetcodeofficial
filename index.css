@@ -136,6 +136,19 @@ header {
   padding: 1em;
 }
 
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #f8333c;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: rgb(225, 224, 224);
+}
+
 .logo {
   max-width: 100px;
 }
