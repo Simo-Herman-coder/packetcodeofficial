@@ -6,7 +6,7 @@
     <title>Kibana Tool Description</title>
 </head>
 <body>
-    <h1>Kibana Tool Description</h1>
+    <h3>Kibana Tool Description</h3>
     <div id="description">
         <!--  Kibana description  -->
           <p>Kibana is a powerful open-source data visualization tool that allows you to explore and analyze large volumes of data stored in Elasticsearch. It provides a user-friendly interface for creating stunning visualizations such as charts, graphs, maps, and dashboards. Kibana is often used in conjunction with Elasticsearch and Logstash, forming the popular ELK Stack, to collect, store, and analyze logs and other structured or unstructured data.</p>
@@ -19,6 +19,38 @@
             <li>Timeline: <p>Perform complex time-based analysis and forecasting.</p></li>
             <li>Machine Learning: <p>Leverage built-in machine learning capabilities to detect anomalies and trends.</p></li>
           </ul>
+    </div>
+    <div id="installation">
+      <h3>Installation and configuration of Kibana</h3>
+      <h5>Prerequisites</h5>
+      <ol>
+        <li><b>Elasticsearch:</b>Ensure you have elasticsearch installed and running. It is cruucial for kibana to function as it provides the data source.</li>
+        <li><b>Basic Understanding of:</b>
+          <ul>
+            <li>Command-line Interface</li>
+            <li>Networking concepts</li>
+            <li>Configuration files</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h5>What is Elasticsearch?</h5>
+      <p>Elasticsearch is a powerful, distributed and restful search and analytics engine, that stores and indexes data, making it highly efficient for searching and analyzing large volume of data.</p>
+
+      <h5>Setting Up Elasticsearch</h5>
+      <ol>
+        <li><b>Download Elasticsearch:</b> Visit the official Elastic website and download the appropriate version for your operating system (Windows, macOS, or Linux)</li>
+        <li><b>Extract the files:</b>Unzip the downloaded archive to your desired location.</li>
+        <li><b>Configure Elasticsearch:</b>
+          <ul>
+            <li>Open the <b><i>elasticsearch.yml</i></b> configuration file located in the extracted directory.</li>
+            <li>Adjust settings like cluster name, node name, and data directory paths as needed.<img src="cluster.png" alt=""></li>
+            <li></li>
+          </ul>
+        </li>
+        <li>Start Elasticsearch</li>
+        <li>Verify Elasticsearch</li>
+      </ol>
     </div>
 </body>
 </html>
